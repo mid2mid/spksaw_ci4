@@ -1,0 +1,150 @@
+CRITICAL - 2022-05-03 01:56:37 --> There is no data to update.
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\KriteriaController.php(85): CodeIgniter\Model->update('4', Array)
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\KriteriaController->update()
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KriteriaController))
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#8 {main}
+CRITICAL - 2022-05-03 03:36:29 --> Call to undefined method App\Models\KriteriaModel::selet
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ViewsController.php(67): CodeIgniter\Model->__call('selet', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ViewsController->data()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewsController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 03:36:57 --> Array to string conversion
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Views\data.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\lenovo...', 61)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ViewsController.php(99): view('data', Array)
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ViewsController->data()
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewsController))
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2022-05-03 03:37:40 --> Array to string conversion
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Views\data.php(253): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\lenovo...', 253)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ViewsController.php(99): view('data', Array)
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ViewsController->data()
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewsController))
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+CRITICAL - 2022-05-03 03:38:18 --> Array to string conversion
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Views\data.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\lenovo...', 263)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\lenovo...')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('data', Array, true)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ViewsController.php(99): view('data', Array)
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ViewsController->data()
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewsController))
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#10 {main}
+ERROR - 2022-05-03 05:47:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `data`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `data`.`id_kriteria`' at line 1
+CRITICAL - 2022-05-03 05:47:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `data`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `data`.`id_kriteria`' at line 1
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `kriteri...', 0)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kriteri...')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kriteri...')
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `kriteri...', Array, false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#12 {main}
+ERROR - 2022-05-03 06:01:24 --> Column 'id_project' in where clause is ambiguous
+CRITICAL - 2022-05-03 06:01:24 --> Column 'id_project' in where clause is ambiguous
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#12 {main}
+CRITICAL - 2022-05-03 07:01:05 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(29): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:01:06 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(29): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:03:08 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(29): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:03:27 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(29): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:03:52 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(31): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:05:37 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(31): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 07:06:52 --> array_push(): Argument #1 ($array) must be of type array, null given
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\DataController.php(31): array_push(NULL, Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\DataController->show()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-03 10:44:05 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-03 10:45:16 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

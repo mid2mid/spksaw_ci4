@@ -1,0 +1,75 @@
+CRITICAL - 2022-05-01 02:19:06 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(74): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:21:08 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(74): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:23:00 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(74): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:53:28 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(74): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:57:02 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(75): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:57:14 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(75): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:58:31 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(75): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 02:58:53 --> Call to undefined method App\Models\ProjectModel::fisrt
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(75): CodeIgniter\Model->__call('fisrt', Array)
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#6 {main}
+CRITICAL - 2022-05-01 03:04:12 --> There is no data to update.
+#0 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\app\Controllers\ProjectController.php(76): CodeIgniter\Model->update('3', Array)
+#4 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ProjectController->update()
+#5 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProjectController))
+#6 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\lenovo\Documents\Aplikasi\Portofolio\spku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\lenovo...')
+#9 {main}
